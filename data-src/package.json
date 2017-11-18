@@ -1,0 +1,26 @@
+{
+  "name": "data-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "all": "node main.js",
+    "squad": "node data-scrapper/modules/match-squad/match-squad.js",
+    "match-summary": "node data-scrapper/modules/match-summary/match-summary.js",
+    "competition-list": "node data-scrapper/modules/competition-list/competition-list.js",
+    "competition-summary": "node data-scrapper/modules/competition-summary/competition-summary.js",
+    "competition-team-list": "node data-scrapper/modules/competition-team-list/competition-team-list.js",
+    "team-stands": "node data-scrapper/modules/team-stands/team-stands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asynx": "0.0.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.33",
+    "mongodb-connector": "^1.0.1",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
